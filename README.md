@@ -1,4 +1,3 @@
-[readme.md](https://github.com/user-attachments/files/27806458/readme.md)
 # Media Crypto: TEE 视频分块加密存储示例
 
 `media_crypto` 是一个基于 OP-TEE 的视频/大文件加密存储原型。它面向“TEE 隔离环境视频的加密存储”选题，核心目标是避免把完整视频一次性加载到 TEE 中，而是采用普通世界分块读写、安全世界分块加解密的流式方案。
